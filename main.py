@@ -34,7 +34,7 @@ FEATURES = [
 # -------------------------
 # APP + STATE
 # -------------------------
-app = FastAPI(title="Anomaly Detection API (Final)")
+app = FastAPI(title="Anomaly Detection API")
 _current_model: Optional[Dict[str, Any]] = None   # will hold bundle with scaler, isolation_forest, one_class_svm, thresholds, etc.
 _current_metadata: Optional[Dict[str, Any]] = None
 
